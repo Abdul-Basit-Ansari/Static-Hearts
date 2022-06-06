@@ -75,7 +75,11 @@ P{
 		
 		
 	
-
+.video{
+	width: 93vw;
+	height: 40vw;
+	margin: 3vw;
+}
 
 .footer{
 	margin-top: 1.4vw;
