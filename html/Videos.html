@@ -1,0 +1,125 @@
+<html>
+     <head>
+	     <meta charset="utf-8">  
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+         <title> Broken Hearts </title>
+	     <link rel="icon" type="image/x-icon" href="../img/logo.1.jpg"> 
+         <link rel="stylesheet" a href="../css/style.css"type="text/css"/>
+     </head>
+	 
+	 
+     <body>
+	  
+		  
+	  
+	  
+
+    
+<div class="h1" align="center" color="gray">WELCOME TO BROKEN HEARTS<br>SAY GOOD BYE TO SADNESS</div>
+
+
+<header class="header">
+
+    <div class="right">
+        <button class="btn"><a href="../index.html"> Upload</a></button>
+        <button class="btn">Email Us</button>
+    </div>
+
+
+
+
+    <div class="left">
+
+
+        <div>Broken HEARTS</div>
+    </div>
+
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="pictures.html">pictures</a></li>
+            <li><a href="videos.html"  class="active">Videos</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    </div>
+
+
+
+</header>
+	
+	
+
+	
+	<div class="video">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/QotYeitdh1U?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/pLpXgIUnQZc?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+				   
+	
+<footer class="footer" align="center">
+    <div>
+        Current time is <span id="time"></span>
+    
+    <br> 
+    <br> 
+        @BROKEN HEARTS OFFICIAL
+    </div>
+    
+</footer>	
+    <script>
+        let now = new Date();
+        console.log(now);
+
+        let dt = new Date(1000);
+        console.log(dt);
+
+       
+
+       
+        let newDate = new Date(3020, 4, 6, 9, 3, 2, 34);
+        console.log(newDate);
+
+        let yr = newDate.getFullYear();
+
+        let dat = newDate.getDate();
+
+        let month = newDate.getMonth();
+
+        let hours = newDate.getHours();
+
+        newDate.setDate(8);
+        newDate.setMinutes(29);
+        console.log(newDate)
+        setInterval(updateTime, 1000);
+
+        function updateTime() {
+            time.innerHTML = new Date();
+        }
+        
+        function clear() {
+            input.innerHTML = "";
+        }
+
+
+    </script>
+
+   </body>
+   </html>
+    
